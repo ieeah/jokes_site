@@ -10,6 +10,7 @@
 				<h3>
 					{{$joke->title}}
 				</h3>
+				<a href="{{route('jokes.show', $joke->id)}}">Read more</a>
 			</article>
 		@empty
 			<p>
