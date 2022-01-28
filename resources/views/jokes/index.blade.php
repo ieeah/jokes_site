@@ -33,6 +33,6 @@
 				No joke found yet
 			</p>
 		@endforelse
-	
+			{{$jokes->links()}}
 	</div>
 @endsection
